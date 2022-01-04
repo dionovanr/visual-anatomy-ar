@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void penjelasanTulangManusia()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        AudioManager.singleton.stopSound();
+        AudioManager.singleton.PlaySound(0);
         
     }
 }

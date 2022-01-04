@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static AudioManager singleton;
+
+    public AudioClip[] clips;
+    AudioSource sumberAudio;
+
+    private void Awake()
     {
-        
+        sumberAudio = GetComponent<AudioSource>();
+        singleton = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlaySound(int indexClip)
     {
-        
+        sumberAudio.PlayOneShot(clips[indexClip]);
+    }
+
+    public void stopSound()
+    {
+        sumberAudio.Stop();
     }
 }
