@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
     public void penjelasanTulangManusia()
     {
         AudioManager.singleton.stopSound();

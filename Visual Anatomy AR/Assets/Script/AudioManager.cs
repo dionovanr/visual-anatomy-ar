@@ -8,6 +8,7 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip[] clips;
     AudioSource sumberAudio;
+    
 
     private void Awake()
     {
@@ -23,5 +24,6 @@ public class AudioManager : MonoBehaviour
     public void stopSound()
     {
         sumberAudio.Stop();
+        
     }
 }
