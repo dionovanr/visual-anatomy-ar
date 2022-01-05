@@ -11,4 +11,10 @@ public class GameManager : MonoBehaviour
         AudioManager.singleton.PlaySound(0);
         
     }
+
+    public void penjelasanGinjal()
+    {
+        AudioManager.singleton.stopSound();
+        AudioManager.singleton.PlaySound(1);
+    }
 }
