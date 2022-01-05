@@ -12,9 +12,11 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void penjelasanGinjal()
+    public void penjelasanHati()
     {
         AudioManager.singleton.stopSound();
         AudioManager.singleton.PlaySound(1);
     }
+
+
 }
