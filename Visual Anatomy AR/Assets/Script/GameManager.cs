@@ -18,6 +18,18 @@ public class GameManager : MonoBehaviour
         AudioManager.singleton.PlaySound(1);
     }
 
+    public void penjelasanJantung()
+    {
+        AudioManager.singleton.stopSound();
+        AudioManager.singleton.PlaySound(7);
+    }
+
+    public void penjelasanLambung()
+    {
+        AudioManager.singleton.stopSound();
+        AudioManager.singleton.PlaySound(8);
+    }
+
     public void penjelasanUsusBesar()
     {
         AudioManager.singleton.stopSound();
