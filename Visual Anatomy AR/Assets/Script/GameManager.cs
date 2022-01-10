@@ -18,5 +18,16 @@ public class GameManager : MonoBehaviour
         AudioManager.singleton.PlaySound(1);
     }
 
+    public void penjelasanUsusBesar()
+    {
+        AudioManager.singleton.stopSound();
+        AudioManager.singleton.PlaySound(9);
+    }
+
+    public void penjelasanTulangKepala()
+    {
+        AudioManager.singleton.stopSound();
+        AudioManager.singleton.PlaySound(10);
+    }
 
 }
