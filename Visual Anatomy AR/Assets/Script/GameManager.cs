@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public void penjelasanHati()
     {
         AudioManager.singleton.stopSound();
-        AudioManager.singleton.PlaySound(1);
+        AudioManager.singleton.PlaySound(2);
     }
 
     public void penjelasanPankreas()
@@ -52,6 +52,12 @@ public class GameManager : MonoBehaviour
     {
         AudioManager.singleton.stopSound();
         AudioManager.singleton.PlaySound(10);
+    }
+
+    public void penjelasanGinjal()
+    {
+        AudioManager.singleton.stopSound();
+        AudioManager.singleton.PlaySound(1);
     }
 
 }
