@@ -26,4 +26,16 @@ public class AudioManager : MonoBehaviour
         sumberAudio.Stop();
         
     }
+    public void penjelasantulanglengan()
+    {
+        AudioManager.singleton.stopSound();
+        AudioManager.singleton.PlaySound(3);
+    }
+
+    public void penjelasantulangrusuk()
+    {
+        AudioManager.singleton.stopSound();
+        AudioManager.singleton.PlaySound(4);
+    }
 }
+

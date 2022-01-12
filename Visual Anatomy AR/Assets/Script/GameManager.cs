@@ -60,4 +60,15 @@ public class GameManager : MonoBehaviour
         AudioManager.singleton.PlaySound(1);
     }
 
+    public void penjelasanTulangLengan()
+    {
+        AudioManager.singleton.stopSound();
+        AudioManager.singleton.PlaySound(3);
+    }
+
+    public void penjelasanTulangRusuk()
+    {
+        AudioManager.singleton.stopSound();
+        AudioManager.singleton.PlaySound(4);
+    }
 }
