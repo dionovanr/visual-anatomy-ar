@@ -79,6 +79,6 @@ public class GameManager : MonoBehaviour
 
     public void QuitGame()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Menu");
     }
 }
