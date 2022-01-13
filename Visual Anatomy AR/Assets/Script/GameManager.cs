@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,7 +10,6 @@ public class GameManager : MonoBehaviour
     {
         AudioManager.singleton.stopSound();
         AudioManager.singleton.PlaySound(0);
-        
     }
 
     public void penjelasanHati()
@@ -70,5 +70,15 @@ public class GameManager : MonoBehaviour
     {
         AudioManager.singleton.stopSound();
         AudioManager.singleton.PlaySound(4);
+    }
+
+    public void stopAudio()
+    {
+        AudioManager.singleton.stopSound();
+    }
+
+    public void QuitGame()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
