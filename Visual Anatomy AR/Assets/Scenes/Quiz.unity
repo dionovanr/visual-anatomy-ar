@@ -5035,7 +5035,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Puased
+  m_Text: Paused
 --- !u!222 &709534507
 CanvasRenderer:
   m_ObjectHideFlags: 0
