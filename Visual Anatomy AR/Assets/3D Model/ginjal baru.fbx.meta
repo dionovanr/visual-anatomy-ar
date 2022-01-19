@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7bf44c7424d263043956f947d82cefe9
+guid: c08aea84ef6291f419c835df0c60a31d
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,8 +7,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: jantung_tertutup
-    second: {fileID: 2100000, guid: c5341bea3fd195c43b6e2ed6e577ee3b, type: 2}
+      name: Material.001
+    second: {fileID: 2100000, guid: 15690c5ba61027a4ab48b3a713722d56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 40d7e4b4dbc58b84fbcf8b4274a1c938, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 4f07d045323f0dd41a613bbe4d30c0b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: cfc2e799d40b53c4c9e5378376140d6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: d45e89e94f7bf2343850b077181ea19e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 2388318a0f64ca04288123b5ffb9e8d1, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
