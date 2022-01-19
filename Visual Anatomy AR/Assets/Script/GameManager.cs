@@ -82,4 +82,17 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+
+    public void backToMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+    public void retryQuiz()
+    {
+        SceneManager.LoadScene("Quiz");
+    }
+    public void playQuiz()
+    {
+        SceneManager.LoadScene("Quiz");
+    }
 }

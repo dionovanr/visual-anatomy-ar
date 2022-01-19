@@ -9,8 +9,13 @@ public class MenuManager : MonoBehaviour
   {
         SceneManager.LoadScene("MainGameplay");
   }
-  
-  public void ExitGame()
+
+    public void playQuiz()
+    {
+        SceneManager.LoadScene("Quiz");
+    }
+
+    public void ExitGame()
     {
         Application.Quit();
     }
